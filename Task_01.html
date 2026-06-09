@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Basics of Web Development</title>
+
+    <style>
+
+        /* CSS Styling */
+
+        body {
+           
+            text-align: center;
+
+            background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600');
+            background: rgba(255, 255, 255, );
+            backdrop-filter: blur(5px);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        main { margin: 0 auto; padding: 50px 36px; }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin: 28px 44px;
+        
+           
+           
+            
+        }
+        .card a {
+            margin-top: auto;   /* Pushes link to bottom */
+            text-align: center;
+            font-size: 13px;
+            display: block;
+        }
+
+        .card {
+            /* transparent white */
+            background-color: #7d7b7b;
+
+            border-radius: 30px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+
+            padding: 20px 22px;
+
+            display: flex;
+            flex-direction: column;
+
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        .card-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        margin-bottom: 14px;
+        }
+
+        .card-icon.html { background: #fff0db; }
+        .card-icon.css  { background: #dbeafe; }
+        .card-icon.js   { background: #fef9c3; }
+
+        .card h3 {
+            background-color: #080000;
+
+            color: #e1e1ee;
+            font-size: 16px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .card p {
+            color: #ccc9c9;
+            font-size: px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+
+        .container {
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        h1 {
+        
+            color: darkblue;
+            background: rgba(259, 259, 259, 0.3); /* transparent white */
+            backdrop-filter: blur(90px);
+        }
+
+        p {
+            font-size: 18px;
+            color: #fffcfc;
+            background: rgba(199, 53, 53, 0.05); /* transparent white */
+            backdrop-filter: blur(5px);
+        }
+
+        img {
+            width: 300px;
+            border-radius: 50px;
+            margin-top: 10px;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HTML CONTENT -->
+
+        <h1>Basics of Web Development</h1>
+
+        <p>
+            This webpage demonstrates HTML, CSS, and JavaScript concepts.
+        </p>
+        <main>
+            <div class="cards">
+            <div class="card">
+                <div class="card-icon html">🏗️</div>
+                <h3>HTML</h3>
+                <p>Defines the structure and content of the page using semantic tags like headings, paragraphs, and links.</p>
+                <a href="https://www.w3schools.com/html/">
+                    <u>More</u>
+                </a> 
+            </div>
+            <div class="card">
+                <div class="card-icon css">🎨</div>
+                <h3>CSS</h3>
+                <p>Controls color, layout, typography, and every visual detail of your webpage.</p>
+                <a href="https://www.w3schools.com/css/">
+                    <u>More</u>
+                </a> 
+            </div>
+            <div class="card">
+                <div class="card-icon js">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Adds interactivity — clicks, animations, and dynamic content updates.</p>
+                <a href="https://www.w3schools.com/js/">
+                    <u>More</u>
+                </a> 
+            </div>
+            </div>
+        </main>
+
+
+
+
+
+        <!-- JavaScript Button -->
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+    </div>
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function showMessage() {
+            alert("Welcome to Basics of Web Development! as a task in Apex Planet intern");
+        }
+
+    </script>
+
+</body>
+</html>
