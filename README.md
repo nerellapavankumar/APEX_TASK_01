@@ -60,11 +60,8 @@ The objective of this task was to learn and apply the foundational concepts of H
 
 ## 📸 Project Screenshot
 
-Add your project screenshot here.
+<img width="1581" height="890" alt="Screenshot 2026-06-09 205335" src="https://github.com/user-attachments/assets/ce410170-a0a6-473c-81bd-e07158c48eec" />
 
-```md
-![Project Screenshot](screenshot.png)
-```
 
 ---
 
@@ -72,7 +69,7 @@ Add your project screenshot here.
 
 1. Download or clone the repository.
 2. Open the project folder.
-3. Open `index.html` in your web browser.
+3. Open `Task_01.html` in your web browser.
 
 No additional installation is required.
 
@@ -105,6 +102,6 @@ Thanks to ApexPlanet Software Pvt. Ltd. for providing this opportunity to learn 
 
 ## 📧 Contact
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/nerellapavankumar/APEX_TASK_01
 
-LinkedIn: https://www.linkedin.com/in/your-profile
+LinkedIn: https://www.linkedin.com/posts/pavan-kumar-nerella-b178a63b7_webdevelopment-html-css-ugcPost-7470147174383779841-I18M/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGXB6MMBRbQUmm1c6GQQ0G98_dD2QkgaXfs
